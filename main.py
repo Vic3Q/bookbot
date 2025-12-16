@@ -1,4 +1,3 @@
-import os
 from stats import get_book_text
 
 book_path = "~/workspace/github.com/Vic3Q/bookbot/books/frankenstein.txt"
