@@ -9,6 +9,7 @@ def get_book_text(path):
 
 def count_distinct_letters(text):
     text = text.lower()
+    text = [char for char in text if char.isalpha()]
     licznik = Counter(text)
     return licznik
 
