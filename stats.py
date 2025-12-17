@@ -29,5 +29,5 @@ def sorter(litery, sciezka, slowa):
     
     # 3. Print the sorted results
     for item in list_of_dicts:
-        print(item["char"], ":", item["num"])
+        print(f'{item["char"]}: {item["num"]}')
     print("============= END ===============")
